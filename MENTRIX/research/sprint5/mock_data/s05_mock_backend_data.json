@@ -1,0 +1,3247 @@
+{
+  "status": "SYNTHETIC_DEMO_DATA_ONLY",
+  "seed": 42,
+  "students": [
+    {
+      "student_id": "MX-DEMO-001",
+      "display_name": "Demo Student 01",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-002",
+      "display_name": "Demo Student 02",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-003",
+      "display_name": "Demo Student 03",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-004",
+      "display_name": "Demo Student 04",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-005",
+      "display_name": "Demo Student 05",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-006",
+      "display_name": "Demo Student 06",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-007",
+      "display_name": "Demo Student 07",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-008",
+      "display_name": "Demo Student 08",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-009",
+      "display_name": "Demo Student 09",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-010",
+      "display_name": "Demo Student 10",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-011",
+      "display_name": "Demo Student 11",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-012",
+      "display_name": "Demo Student 12",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-013",
+      "display_name": "Demo Student 13",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-014",
+      "display_name": "Demo Student 14",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-015",
+      "display_name": "Demo Student 15",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-016",
+      "display_name": "Demo Student 16",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-017",
+      "display_name": "Demo Student 17",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-018",
+      "display_name": "Demo Student 18",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-019",
+      "display_name": "Demo Student 19",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-020",
+      "display_name": "Demo Student 20",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-021",
+      "display_name": "Demo Student 21",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-022",
+      "display_name": "Demo Student 22",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-023",
+      "display_name": "Demo Student 23",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-024",
+      "display_name": "Demo Student 24",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-025",
+      "display_name": "Demo Student 25",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-026",
+      "display_name": "Demo Student 26",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-027",
+      "display_name": "Demo Student 27",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-028",
+      "display_name": "Demo Student 28",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-029",
+      "display_name": "Demo Student 29",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    },
+    {
+      "student_id": "MX-DEMO-030",
+      "display_name": "Demo Student 30",
+      "section_id": "AI-S01",
+      "synthetic": true,
+      "login_enabled": false
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "AI101",
+      "course_name": "Artificial Intelligence"
+    },
+    {
+      "course_id": "ML201",
+      "course_name": "Machine Learning"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "AI101-S01",
+      "course_id": "AI101",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 1,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "course_id": "AI101",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 2,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "course_id": "AI101",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 3,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "course_id": "AI101",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 4,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "course_id": "AI101",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 5,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "course_id": "AI101",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 6,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "course_id": "ML201",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 1,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "course_id": "ML201",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 2,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "course_id": "ML201",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 3,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "course_id": "ML201",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 4,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "course_id": "ML201",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 5,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "course_id": "ML201",
+      "section_id": "AI-S01",
+      "room": "Lab 3",
+      "session_number": 6,
+      "status": "closed",
+      "qr_rotation_seconds": 30,
+      "checkin_window_minutes": 5,
+      "synthetic": true
+    }
+  ],
+  "attendance": [
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S01",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S02",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S03",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S04",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S05",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "AI101-S06",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S01",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S02",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S03",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S04",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "verified",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S05",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-001",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-002",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-003",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-004",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-005",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-006",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-007",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-008",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-009",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-010",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-011",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-012",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-013",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-014",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-015",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-016",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-017",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-018",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-019",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-020",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-021",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-022",
+      "attendance_status": "absent",
+      "source": "no_valid_checkin",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-023",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-024",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-025",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-026",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-027",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-028",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-029",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    },
+    {
+      "session_id": "ML201-S06",
+      "student_id": "MX-DEMO-030",
+      "attendance_status": "present",
+      "source": "demo_rotating_qr",
+      "random_check": "not_selected",
+      "synthetic": true
+    }
+  ],
+  "notes": [
+    "No PINs: the backend must generate and hash credentials securely",
+    "These records are for UI and Chatbot/API testing, NOT for grading model training",
+    "The QR field describes a desired configuration; cryptographic session verification is NOT implemented"
+  ]
+}

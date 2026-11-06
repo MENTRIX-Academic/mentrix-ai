@@ -1,0 +1,2435 @@
+{
+  "status": "EXECUTED_ON_USER_UPLOADED_ASAG_CSV",
+  "source": "DigiKlausur/ASAG-Dataset; original dataset URL: https://github.com/DigiKlausur/ASAG-Dataset",
+  "run_utc": "2026-11-03T20:35:05.782550+00:00",
+  "dataset": {
+    "total_rows": 646,
+    "human_scored_nonblank": 607,
+    "blank_score_0": 39,
+    "question_count": 17,
+    "grades_all": {
+      "0": 94,
+      "1": 219,
+      "2": 333
+    },
+    "median_words_nonblank": 53.0,
+    "mean_words_nonblank": 57.73,
+    "one_to_three_word_answers": 1,
+    "source_file_sha256": "8ca6ff6f565997379fc2b6a591cf07809a968f0f2916250387db8feb2da1cc4d"
+  },
+  "seed": 42,
+  "split": "Per-question grouped exact normalized answers; ~60% train, 20% validation, 20% test; 39 blank answers excluded from model test.",
+  "model_selection": "Lowest validation rounded MAE, tie-break validation raw MAE; held-out test not used for selection.",
+  "methods_are_new_baselines_not_reproductions_of_historical_models": true,
+  "grading_scope": "Only typed text responses 0,1,2; NOT OCR, not 1-3-word answers, not TA auto-publish.",
+  "limitations": [
+    "Only 27-38 nonblank examples per question, hence high uncertainty and unstable per-question QWK.",
+    "Single human rater; reliability and disagreements cannot be measured.",
+    "No stable student identity column; no cross-question student-disjoint split.",
+    "Exact duplicate leakage blocked within question; semantic near-duplicate leakage not fully excluded.",
+    "No OCR, no approved MENTRIX rubrics, no real 1-3 word final evaluation.",
+    "Text-based baselines do not demonstrate grading correctness on contradictions or safe auto-publishing."
+  ],
+  "method_summary": {
+    "mean": {
+      "macro_test_mae": 0.43102,
+      "micro_test_mae": 0.42636,
+      "macro_test_qwk_defined_only": 0.0,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.33957,
+      "pooled_test_exact_match": 0.57364,
+      "heldout_n": 129
+    },
+    "tfidf_word_ridge": {
+      "macro_test_mae": 0.42997,
+      "micro_test_mae": 0.42636,
+      "macro_test_qwk_defined_only": 0.00548,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.34324,
+      "pooled_test_exact_match": 0.57364,
+      "heldout_n": 129
+    },
+    "tfidf_char_ridge": {
+      "macro_test_mae": 0.45308,
+      "micro_test_mae": 0.44961,
+      "macro_test_qwk_defined_only": -0.04281,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.2865,
+      "pooled_test_exact_match": 0.55814,
+      "heldout_n": 129
+    },
+    "token_overlap_knn": {
+      "macro_test_mae": 0.36345,
+      "micro_test_mae": 0.35659,
+      "macro_test_qwk_defined_only": 0.25308,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.4339,
+      "pooled_test_exact_match": 0.65116,
+      "heldout_n": 129
+    },
+    "tfidf_word_knn": {
+      "macro_test_mae": 0.44118,
+      "micro_test_mae": 0.43411,
+      "macro_test_qwk_defined_only": 0.08036,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.31053,
+      "pooled_test_exact_match": 0.5814,
+      "heldout_n": 129
+    },
+    "tfidf_char_knn": {
+      "macro_test_mae": 0.43382,
+      "micro_test_mae": 0.42636,
+      "macro_test_qwk_defined_only": 0.13654,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.33812,
+      "pooled_test_exact_match": 0.58915,
+      "heldout_n": 129
+    },
+    "reference_jaccard_ridge": {
+      "macro_test_mae": 0.44678,
+      "micro_test_mae": 0.44186,
+      "macro_test_qwk_defined_only": 0.00175,
+      "questions_with_defined_qwk": 16,
+      "pooled_test_qwk": 0.31746,
+      "pooled_test_exact_match": 0.55814,
+      "heldout_n": 129
+    }
+  },
+  "validation_selected_summary": {
+    "test_n": 129,
+    "micro_test_mae": 0.42636,
+    "exact_match": 0.5814,
+    "pooled_test_qwk": 0.34762
+  },
+  "per_prompt": [
+    {
+      "prompt_id": "1",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_char_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.39773,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.43182,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.36903,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.37726,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.36088,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.37814,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.29596,
+            "qwk": -0.2,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.17058,
+            "qwk": 0.71429,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.24392,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.20038,
+            "qwk": 0.71429,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.16269,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.20605,
+            "qwk": 0.71429,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.42592,
+            "qwk": -0.2,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.40811,
+            "qwk": 0.33333,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "2",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "token_overlap_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.26136,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.26136,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.23655,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.25166,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.24403,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.25989,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.125,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.1671,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.16599,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19911,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.16475,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.25774,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.27234,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.27742,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "3",
+      "rows": {
+        "train": 20,
+        "validation": 7,
+        "test": 7
+      },
+      "selected_on_validation": "mean",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.61429,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.47143,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.61795,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.46287,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.61449,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.46253,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.71303,
+            "qwk": -0.19512,
+            "exact_match": 0.42857,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.47281,
+            "qwk": -0.27273,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.66795,
+            "qwk": -0.19512,
+            "exact_match": 0.42857,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.47232,
+            "qwk": -0.16667,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.71482,
+            "qwk": -0.19512,
+            "exact_match": 0.42857,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.58602,
+            "qwk": -0.4,
+            "exact_match": 0.28571,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.6157,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.46905,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "4",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "token_overlap_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.09091,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.09091,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.08463,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.09025,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.08142,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.09777,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.04473,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.03878,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.07534,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.03837,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.15488,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.12678,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.08841,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.0,
+            "raw_mae": 0.09185,
+            "qwk": null,
+            "exact_match": 1.0,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "5",
+      "rows": {
+        "train": 20,
+        "validation": 7,
+        "test": 7
+      },
+      "selected_on_validation": "token_overlap_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.49286,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.14286,
+            "raw_mae": 0.25,
+            "qwk": 0.0,
+            "exact_match": 0.85714,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.48377,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.14286,
+            "raw_mae": 0.2576,
+            "qwk": 0.0,
+            "exact_match": 0.85714,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.49368,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.14286,
+            "raw_mae": 0.25436,
+            "qwk": 0.0,
+            "exact_match": 0.85714,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.31366,
+            "qwk": 0.22222,
+            "exact_match": 0.85714,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.14286,
+            "raw_mae": 0.1744,
+            "qwk": 0.0,
+            "exact_match": 0.85714,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.38454,
+            "qwk": 0.22222,
+            "exact_match": 0.85714,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.33569,
+            "qwk": -0.23529,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.62376,
+            "qwk": -0.16667,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.32668,
+            "qwk": -0.16667,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.48525,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.14286,
+            "raw_mae": 0.2298,
+            "qwk": 0.0,
+            "exact_match": 0.85714,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "6",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_char_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.56818,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.43182,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.55105,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.42943,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.54064,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.43485,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.55043,
+            "qwk": 0.09091,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.36888,
+            "qwk": 0.14286,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.55254,
+            "qwk": 0.09091,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.47208,
+            "qwk": 0.2,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.39753,
+            "qwk": 0.2,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.58038,
+            "qwk": 0.09091,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.56304,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.4321,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "7",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "mean",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.36364,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.45455,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.37141,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.43812,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.36835,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.43685,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.45766,
+            "qwk": -0.23077,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.30226,
+            "qwk": 0.71429,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.39163,
+            "qwk": -0.2,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.44651,
+            "qwk": 0.14286,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.38487,
+            "qwk": -0.14286,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.29581,
+            "qwk": 0.46667,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.36605,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.45263,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "8",
+      "rows": {
+        "train": 21,
+        "validation": 7,
+        "test": 7
+      },
+      "selected_on_validation": "reference_jaccard_ridge",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 0.79592,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.64626,
+            "qwk": 0.0,
+            "exact_match": 0.28571,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 1.14286,
+            "raw_mae": 0.83609,
+            "qwk": -0.61538,
+            "exact_match": 0.14286,
+            "within_one": 0.71429
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.6539,
+            "qwk": 0.26316,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.85714,
+            "raw_mae": 0.80627,
+            "qwk": -0.07692,
+            "exact_match": 0.28571,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.65731,
+            "qwk": -0.25641,
+            "exact_match": 0.42857,
+            "within_one": 0.85714
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 0.91578,
+            "qwk": -0.45283,
+            "exact_match": 0.28571,
+            "within_one": 0.71429
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.57439,
+            "qwk": 0.26316,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 0.86138,
+            "qwk": -0.45283,
+            "exact_match": 0.28571,
+            "within_one": 0.71429
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.67294,
+            "qwk": -0.25641,
+            "exact_match": 0.42857,
+            "within_one": 0.85714
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 0.84529,
+            "qwk": -0.45283,
+            "exact_match": 0.28571,
+            "within_one": 0.71429
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.85714,
+            "raw_mae": 0.71547,
+            "qwk": -0.12,
+            "exact_match": 0.28571,
+            "within_one": 0.85714
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.76896,
+            "qwk": 0.31373,
+            "exact_match": 0.28571,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.85714,
+            "raw_mae": 0.64897,
+            "qwk": -0.10526,
+            "exact_match": 0.14286,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "9",
+      "rows": {
+        "train": 21,
+        "validation": 7,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_word_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.51701,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.52976,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.5036,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.54243,
+            "qwk": 0.15789,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.50911,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.55415,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.4284,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.45869,
+            "qwk": 0.15789,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.36753,
+            "qwk": 0.22222,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.55598,
+            "qwk": 0.15789,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.47424,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.55428,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.52767,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.53035,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "10",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_char_ridge",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.47727,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.54545,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.46976,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.54783,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.46576,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.54068,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.46834,
+            "qwk": 0.14286,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.58175,
+            "qwk": 0.33333,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.57415,
+            "qwk": -0.25,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.49906,
+            "qwk": -0.11111,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.875,
+            "raw_mae": 0.6373,
+            "qwk": -0.75,
+            "exact_match": 0.125,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.53028,
+            "qwk": -0.11111,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.47731,
+            "qwk": 0.0,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.54603,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "11",
+      "rows": {
+        "train": 22,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_word_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19318,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19318,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.18239,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.18946,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.1905,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19382,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.21742,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.2095,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.13248,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.125,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.17929,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19761,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19318,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.19337,
+            "qwk": 0.0,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "12",
+      "rows": {
+        "train": 18,
+        "validation": 6,
+        "test": 7
+      },
+      "selected_on_validation": "token_overlap_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 6,
+            "mae": 1.0,
+            "raw_mae": 0.96296,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.61905,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 6,
+            "mae": 1.0,
+            "raw_mae": 0.94854,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.6225,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 6,
+            "mae": 1.0,
+            "raw_mae": 0.93796,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.61657,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 6,
+            "mae": 0.83333,
+            "raw_mae": 0.68474,
+            "qwk": 0.21053,
+            "exact_match": 0.16667,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.48857,
+            "qwk": 0.66667,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 6,
+            "mae": 1.0,
+            "raw_mae": 0.88653,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.71429,
+            "raw_mae": 0.62106,
+            "qwk": 0.28571,
+            "exact_match": 0.28571,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 6,
+            "mae": 0.83333,
+            "raw_mae": 0.82271,
+            "qwk": 0.21053,
+            "exact_match": 0.16667,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.61521,
+            "qwk": 0.33333,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 6,
+            "mae": 1.0,
+            "raw_mae": 0.86929,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.6084,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "13",
+      "rows": {
+        "train": 21,
+        "validation": 8,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_word_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.5119,
+            "qwk": 0.0,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.4881,
+            "qwk": 0.0,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.49693,
+            "qwk": -0.11111,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.49345,
+            "qwk": -0.33333,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.48753,
+            "qwk": 0.5,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.50109,
+            "qwk": -0.42857,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.49484,
+            "qwk": -0.11111,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.125,
+            "raw_mae": 0.33305,
+            "qwk": 0.6,
+            "exact_match": 0.875,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.4132,
+            "qwk": 0.5,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.63658,
+            "qwk": -0.5,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.50776,
+            "qwk": 0.14286,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.75,
+            "raw_mae": 0.74319,
+            "qwk": -0.5,
+            "exact_match": 0.25,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.5044,
+            "qwk": 0.09091,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.49544,
+            "qwk": -0.2,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "14",
+      "rows": {
+        "train": 21,
+        "validation": 7,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_char_ridge",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.36735,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.625,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.36745,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.59265,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.35567,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.57308,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.33698,
+            "qwk": -0.23529,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.36147,
+            "qwk": 0.45455,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.41847,
+            "qwk": 0.08696,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.47097,
+            "qwk": 0.45455,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.42428,
+            "qwk": 0.3,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.25,
+            "raw_mae": 0.25084,
+            "qwk": 0.65217,
+            "exact_match": 0.75,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.37586,
+            "qwk": 0.0,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.625,
+            "raw_mae": 0.60922,
+            "qwk": 0.0,
+            "exact_match": 0.375,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "15",
+      "rows": {
+        "train": 21,
+        "validation": 7,
+        "test": 7
+      },
+      "selected_on_validation": "tfidf_char_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.67347,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.59864,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.65777,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.57441,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.63514,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.56253,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.60346,
+            "qwk": 0.5,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.85714,
+            "raw_mae": 0.58266,
+            "qwk": 0.125,
+            "exact_match": 0.14286,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.57479,
+            "qwk": 0.33333,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.54229,
+            "qwk": -0.4,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.28571,
+            "raw_mae": 0.52984,
+            "qwk": 0.66667,
+            "exact_match": 0.71429,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.56974,
+            "qwk": 0.125,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.62875,
+            "qwk": 0.0,
+            "exact_match": 0.42857,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.5523,
+            "qwk": 0.0,
+            "exact_match": 0.57143,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "16",
+      "rows": {
+        "train": 21,
+        "validation": 7,
+        "test": 8
+      },
+      "selected_on_validation": "tfidf_char_knn",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 1.04082,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 1.0,
+            "raw_mae": 0.95238,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 0.89763,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 1.0,
+            "raw_mae": 0.84694,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 0.89014,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 1.0,
+            "raw_mae": 0.80598,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.48185,
+            "qwk": 0.53333,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 8,
+            "mae": 1.0,
+            "raw_mae": 0.73672,
+            "qwk": -0.25,
+            "exact_match": 0.125,
+            "within_one": 0.875
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.57143,
+            "raw_mae": 0.40008,
+            "qwk": 0.53333,
+            "exact_match": 0.57143,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.5,
+            "raw_mae": 0.43628,
+            "qwk": 0.6,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 7,
+            "mae": 0.42857,
+            "raw_mae": 0.36668,
+            "qwk": 0.55696,
+            "exact_match": 0.71429,
+            "within_one": 0.85714
+          },
+          "test": {
+            "n": 8,
+            "mae": 0.375,
+            "raw_mae": 0.2331,
+            "qwk": 0.7,
+            "exact_match": 0.625,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 7,
+            "mae": 1.0,
+            "raw_mae": 1.00751,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 8,
+            "mae": 1.0,
+            "raw_mae": 0.93128,
+            "qwk": 0.0,
+            "exact_match": 0.0,
+            "within_one": 1.0
+          }
+        }
+      }
+    },
+    {
+      "prompt_id": "17",
+      "rows": {
+        "train": 15,
+        "validation": 6,
+        "test": 6
+      },
+      "selected_on_validation": "mean",
+      "baselines": {
+        "mean": {
+          "validation": {
+            "n": 6,
+            "mae": 0.33333,
+            "raw_mae": 0.37778,
+            "qwk": 0.0,
+            "exact_match": 0.66667,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.66667,
+            "raw_mae": 0.68889,
+            "qwk": 0.0,
+            "exact_match": 0.33333,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_ridge": {
+          "validation": {
+            "n": 6,
+            "mae": 0.33333,
+            "raw_mae": 0.42897,
+            "qwk": 0.0,
+            "exact_match": 0.66667,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.66667,
+            "raw_mae": 0.67875,
+            "qwk": 0.0,
+            "exact_match": 0.33333,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_ridge": {
+          "validation": {
+            "n": 6,
+            "mae": 0.33333,
+            "raw_mae": 0.41448,
+            "qwk": 0.0,
+            "exact_match": 0.66667,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.66667,
+            "raw_mae": 0.66249,
+            "qwk": 0.0,
+            "exact_match": 0.33333,
+            "within_one": 1.0
+          }
+        },
+        "token_overlap_knn": {
+          "validation": {
+            "n": 6,
+            "mae": 0.5,
+            "raw_mae": 0.59937,
+            "qwk": -0.66667,
+            "exact_match": 0.66667,
+            "within_one": 0.83333
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.5,
+            "raw_mae": 0.68647,
+            "qwk": 0.4,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_word_knn": {
+          "validation": {
+            "n": 6,
+            "mae": 0.66667,
+            "raw_mae": 0.70626,
+            "qwk": -0.5,
+            "exact_match": 0.5,
+            "within_one": 0.83333
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.5,
+            "raw_mae": 0.61277,
+            "qwk": 0.4,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "tfidf_char_knn": {
+          "validation": {
+            "n": 6,
+            "mae": 0.5,
+            "raw_mae": 0.55847,
+            "qwk": -0.66667,
+            "exact_match": 0.66667,
+            "within_one": 0.83333
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.5,
+            "raw_mae": 0.51666,
+            "qwk": 0.4,
+            "exact_match": 0.5,
+            "within_one": 1.0
+          }
+        },
+        "reference_jaccard_ridge": {
+          "validation": {
+            "n": 6,
+            "mae": 0.33333,
+            "raw_mae": 0.38897,
+            "qwk": 0.0,
+            "exact_match": 0.66667,
+            "within_one": 1.0
+          },
+          "test": {
+            "n": 6,
+            "mae": 0.66667,
+            "raw_mae": 0.698,
+            "qwk": 0.0,
+            "exact_match": 0.33333,
+            "within_one": 1.0
+          }
+        }
+      }
+    }
+  ]
+}

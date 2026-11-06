@@ -1,0 +1,45 @@
+# Python build / local IDE
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
+
+# IMPORTANT: never commit real student records, faces, identifiable handwriting or grades
+private/
+secrets/
+student_data/
+student-submissions/
+research/data/private/
+research/data/real_students/
+research/data/raw_scans/
+uploads/
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep public artificial demo cases and source provenance in Git.
+# reports/phase1_verification.json is a reproducibility record, not real grades.
+
+# Local pilot data — never commit student images or manual grades
+local_private_data/
+
+# Per-project Python environment
+.venv/
+
+# Sprint06 licensed handwriting, gold transcripts, model outputs & private paper annotations
+research/sprint6/data/iam_lines/
+research/sprint6/data/iam_meta/
+research/sprint6/data/iam_manifest.csv
+research/sprint6/data/*_LOCAL_ONLY*
+research/sprint6/results/validation/
+research/sprint6/results/test/
+research/sprint6/results/diagnostics/
+research/sprint6/results/*_LOCAL_ONLY*

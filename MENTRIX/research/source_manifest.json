@@ -1,0 +1,10 @@
+{
+  "captured_on": "2026-10-30",
+  "origins": "User-supplied original grader.py, grader_v2.py, questions.json as embedded in existing roadmap app",
+  "sha256": {
+    "grader.py": "2ef65dc26a21ab13d74b6c39bd213de15b514b6813c06038aacb54326297f831",
+    "grader_v2.py": "699347c73967a57cbb8e173879d72b41aab14cbd7893d18be4c462db5df59b9b",
+    "questions.json": "ceca66c35bc0ed7a036bd438ec67f2ed1f017ab375dc10c77a9bf6ae28ffce7d"
+  },
+  "historical_source_note": "stress_summary.json and summary.json are carried summary outputs; source stress_cases.csv, synthetic_cases.csv and original unit test scripts were NOT uploaded"
+}

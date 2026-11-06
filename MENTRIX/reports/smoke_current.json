@@ -1,0 +1,12 @@
+{
+  "name": "NEW_2026_10_30_MALFORMED_STRING_EXCEPTION_SMOKE",
+  "seed": 20261030,
+  "count": 500,
+  "outcome_counts": {
+    "needs_review": 482,
+    "incorrect": 18
+  },
+  "crash_count": 0,
+  "failures": [],
+  "not_evidence_of": "model accuracy, student grading quality, production security, historical fuzz test reproduction"
+}

@@ -1,0 +1,10 @@
+experiment_id,component,method,mae,qwk,data_origin,evaluation_type,source_document,source_pages,re_run_in_sprint1,fit_for_live_auto_grading,notes
+HIST-SAS-01,Descriptive grading,Token Overlap,1.7821,0.3404,SYNTHETIC,LEGACY_COMPARISON,"Work Wrap up.pdf",9-10,NO,NO,"Scores on synthetic illustrative cases; do not compare to new Kaggle results"
+HIST-SAS-02,Descriptive grading,TF-IDF Characters,1.8217,0.3023,SYNTHETIC,LEGACY_COMPARISON,"Work Wrap up.pdf",9-10,NO,NO,"Scores on synthetic illustrative cases"
+HIST-SAS-03,Descriptive grading,TF-IDF Words,1.9839,0.2702,SYNTHETIC,LEGACY_COMPARISON,"Work Wrap up.pdf",9-10,NO,NO,"Scores on synthetic illustrative cases"
+HIST-SAS-04,Descriptive grading,SBERT MiniLM,2.0616,0.2991,SYNTHETIC,LEGACY_COMPARISON,"Work Wrap up.pdf",9-10,NO,NO,"Similarity is not correctness"
+HIST-SAS-05,Descriptive grading,Rubric + SBERT,1.6800,0.3031,SYNTHETIC,LEGACY_COMPARISON,"Work Wrap up.pdf",9-10,NO,NO,"Rubric/half-point mismatch not resolved"
+HIST-SAS-06,Descriptive grading,Rubric + NLI,1.5200,0.4794,SYNTHETIC,LEGACY_COMPARISON,"Work Wrap up.pdf",9-11,NO,NO,"24 of 25 flagged for review on synthetic data; QWK not real-world"
+HIST-SAS-07,Descriptive grading,MiniLM + NLI,1.6058,0.4597,SYNTHETIC,SEPARATE_SYNTHETIC_TRIAL,"Work Wrap up.pdf",6-7,NO,NO,"Trial differs from 6-method rubric comparison; do not rank together without fixed test set"
+HIST-TYPED-01,Typed grading,Strict vs V1 vs V2,,,ASSISTANT_AUTHORED_CASES,DESIGN_REGRESSION,research/results/observed_summary.json,,NO,NO,"29 design cases; tests changed 6 decisions; not independently graded student accuracy"
+HIST-OCR-01,Handwriting OCR,TrOCR base handwritten,,,UNKNOWN,INTEGRATION_NO_VERIFIED_HOLDOUT,ocr_integration.py,,NO,NO,"Has usable inference code; independent true OCR CER/WER still missing in supplied archive"

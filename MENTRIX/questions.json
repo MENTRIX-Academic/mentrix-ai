@@ -1,0 +1,308 @@
+[
+  {
+    "question_id": "E01",
+    "type": "essay_descriptive",
+    "prompt": "Explain the difference between continuous and discrete signals in the time domain.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "source_pages": "3–4",
+    "legacy_ct02_question_id": "CT02_Q01",
+    "status": "EXISTING_PILOT_RECLASSIFIED",
+    "note": "Keep original five-criterion rubric until TA review.",
+    "max_score": 5
+  },
+  {
+    "question_id": "E02",
+    "type": "essay_descriptive",
+    "prompt": "Compare the shapes and typical communication uses of sine waves and square waves.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "source_pages": "5",
+    "legacy_ct02_question_id": "CT02_Q02",
+    "status": "EXISTING_PILOT_RECLASSIFIED",
+    "note": "Keep original five-criterion rubric until TA review.",
+    "max_score": 5
+  },
+  {
+    "question_id": "E03",
+    "type": "essay_descriptive",
+    "prompt": "Define amplitude, frequency, period, and phase of a sine wave, and state the relation between period and frequency.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "source_pages": "6–8",
+    "legacy_ct02_question_id": "CT02_Q03",
+    "status": "EXISTING_PILOT_RECLASSIFIED",
+    "note": "Keep original five-criterion rubric until TA review.",
+    "max_score": 5
+  },
+  {
+    "question_id": "E04",
+    "type": "essay_descriptive",
+    "prompt": "What is a signal spectrum, and how are the frequencies of a composite signal represented in the lecture?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "source_pages": "10–12",
+    "legacy_ct02_question_id": "CT02_Q04",
+    "status": "EXISTING_PILOT_RECLASSIFIED",
+    "note": "Keep original five-criterion rubric until TA review.",
+    "max_score": 5
+  },
+  {
+    "question_id": "E05_LEGACY",
+    "type": "essay_descriptive",
+    "prompt": "Define signal bandwidth and calculate the bandwidth of a traditional telephone voice range from 300 Hz to 3400 Hz.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "source_pages": "15–16",
+    "legacy_ct02_question_id": "CT02_Q05",
+    "status": "EXISTING_PILOT_RECLASSIFIED",
+    "note": "Mixed conceptual + calculation; split for new experiments.",
+    "max_score": 5
+  },
+  {
+    "question_id": "MC01",
+    "type": "mcq",
+    "prompt": "Which signal has distinct separate levels in this lecture’s example?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "options": {
+      "A": "Continuous",
+      "B": "Discrete",
+      "C": "Sinusoidal",
+      "D": "Composite"
+    },
+    "correct_letter": "B",
+    "max_score": 1
+  },
+  {
+    "question_id": "MC02",
+    "type": "mcq",
+    "prompt": "Which waveform typically follows a smooth curve?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "options": {
+      "A": "Square wave",
+      "B": "Pulse",
+      "C": "Sine wave",
+      "D": "Rectangular wave"
+    },
+    "correct_letter": "C",
+    "max_score": 1
+  },
+  {
+    "question_id": "MC03",
+    "type": "mcq",
+    "prompt": "Which signal parameter is measured in hertz?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "options": {
+      "A": "Frequency",
+      "B": "Phase",
+      "C": "Period",
+      "D": "Amplitude"
+    },
+    "correct_letter": "A",
+    "max_score": 1
+  },
+  {
+    "question_id": "MC04",
+    "type": "mcq",
+    "prompt": "Which technique is used to analyze frequency components?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "options": {
+      "A": "Fourier analysis",
+      "B": "Encryption",
+      "C": "Compression",
+      "D": "Sampling only"
+    },
+    "correct_letter": "A",
+    "max_score": 1
+  },
+  {
+    "question_id": "MC05",
+    "type": "mcq",
+    "prompt": "What is the bandwidth of frequencies 300 Hz to 3400 Hz?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "options": {
+      "A": "300 Hz",
+      "B": "3400 Hz",
+      "C": "3100 Hz",
+      "D": "3700 Hz"
+    },
+    "correct_letter": "C",
+    "max_score": 1
+  },
+  {
+    "question_id": "SA01",
+    "type": "short_answer",
+    "prompt": "Which waveform has a smooth oscillating shape?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "sine wave",
+    "accepted_answers": [
+      "sine wave",
+      "sinusoid",
+      "sinusoidal wave"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "SA02",
+    "type": "short_answer",
+    "prompt": "Which parameter is measured in hertz?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "frequency",
+    "accepted_answers": [
+      "frequency"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "SA03",
+    "type": "short_answer",
+    "prompt": "What is the maximum displacement from a wave’s center called?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "amplitude",
+    "accepted_answers": [
+      "amplitude"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "SA04",
+    "type": "short_answer",
+    "prompt": "What is the duration of one complete cycle called?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "period",
+    "accepted_answers": [
+      "period",
+      "time period"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "SA05",
+    "type": "short_answer",
+    "prompt": "What is the range of frequencies in a signal called?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "spectrum",
+    "accepted_answers": [
+      "spectrum",
+      "signal spectrum"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "SA06",
+    "type": "short_answer",
+    "prompt": "Which method is used to represent a signal in the frequency domain?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "Fourier analysis",
+    "accepted_answers": [
+      "Fourier analysis",
+      "Fourier transform"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "SA07",
+    "type": "short_answer",
+    "prompt": "Which waveform switches sharply between high and low levels?",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_answer": "square wave",
+    "accepted_answers": [
+      "square wave",
+      "rectangular wave"
+    ],
+    "max_score": 1,
+    "max_words": 3
+  },
+  {
+    "question_id": "MA01",
+    "type": "math",
+    "prompt": "If frequency is 50 Hz, calculate the period (in seconds).",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_expression": "0.02",
+    "base_unit": "s",
+    "require_unit": false,
+    "allowed_symbols": [],
+    "allow_lhs": null,
+    "max_score": 1,
+    "math_policy": "single_final_answer_only; show work / partial credit later"
+  },
+  {
+    "question_id": "MA02",
+    "type": "math",
+    "prompt": "For telephone voice frequencies 300 Hz to 3400 Hz, calculate the bandwidth. Include a unit.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_expression": "3100",
+    "base_unit": "Hz",
+    "require_unit": true,
+    "allowed_symbols": [],
+    "allow_lhs": null,
+    "max_score": 1,
+    "math_policy": "single_final_answer_only; show work / partial credit later"
+  },
+  {
+    "question_id": "MA03",
+    "type": "math",
+    "prompt": "A signal has a period of 0.5 s. Calculate its frequency, including the unit.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_expression": "2",
+    "base_unit": "Hz",
+    "require_unit": true,
+    "allowed_symbols": [],
+    "allow_lhs": null,
+    "max_score": 1,
+    "math_policy": "single_final_answer_only; show work / partial credit later"
+  },
+  {
+    "question_id": "MA04",
+    "type": "math",
+    "prompt": "Expand the expression (x+1)^2.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_expression": "x^2+2*x+1",
+    "base_unit": null,
+    "require_unit": false,
+    "allowed_symbols": [
+      "x"
+    ],
+    "allow_lhs": null,
+    "max_score": 1,
+    "math_policy": "single_final_answer_only; show work / partial credit later"
+  },
+  {
+    "question_id": "MA05",
+    "type": "math",
+    "prompt": "Write the formula for period T in terms of frequency f.",
+    "topic": "Communication Technology — Lecture 02",
+    "approval": "ASSUMED_APPROVED_BY_USER_INSTRUCTION_FOR_PILOT",
+    "canonical_expression": "1/f",
+    "base_unit": null,
+    "require_unit": false,
+    "allowed_symbols": [
+      "f"
+    ],
+    "allow_lhs": "T",
+    "max_score": 1,
+    "math_policy": "single_final_answer_only; show work / partial credit later"
+  }
+]

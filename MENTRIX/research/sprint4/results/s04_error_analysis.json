@@ -1,0 +1,356 @@
+{
+  "status": "EXECUTED_FROZEN_SPRINT03_ERROR_ANALYSIS",
+  "dataset_hash": "8ca6ff6f565997379fc2b6a591cf07809a968f0f2916250387db8feb2da1cc4d",
+  "frozen_sprint03_seed": 42,
+  "test_n": 129,
+  "human_review_examples": 45,
+  "results_are_previous_lightweight_models_not_transformers": true,
+  "s03_all_methods": {
+    "mean": {
+      "n": 129,
+      "mae": 0.42636,
+      "exact": 0.57364,
+      "qwk": 0.33957,
+      "errors": 55,
+      "dangerous_full_credit": 16,
+      "missed_full_credit": 29,
+      "two_point_errors": 0,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          36,
+          16
+        ],
+        [
+          0,
+          29,
+          38
+        ]
+      ]
+    },
+    "reference_jaccard_ridge": {
+      "n": 129,
+      "mae": 0.44186,
+      "exact": 0.55814,
+      "qwk": 0.31746,
+      "errors": 57,
+      "dangerous_full_credit": 18,
+      "missed_full_credit": 29,
+      "two_point_errors": 0,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          34,
+          18
+        ],
+        [
+          0,
+          29,
+          38
+        ]
+      ]
+    },
+    "tfidf_char_knn": {
+      "n": 129,
+      "mae": 0.42636,
+      "exact": 0.58915,
+      "qwk": 0.33812,
+      "errors": 53,
+      "dangerous_full_credit": 25,
+      "missed_full_credit": 20,
+      "two_point_errors": 2,
+      "confusion_gold_rows_pred_cols": [
+        [
+          1,
+          8,
+          1
+        ],
+        [
+          0,
+          28,
+          24
+        ],
+        [
+          1,
+          19,
+          47
+        ]
+      ]
+    },
+    "tfidf_char_ridge": {
+      "n": 129,
+      "mae": 0.44961,
+      "exact": 0.55814,
+      "qwk": 0.2865,
+      "errors": 57,
+      "dangerous_full_credit": 21,
+      "missed_full_credit": 27,
+      "two_point_errors": 1,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          32,
+          20
+        ],
+        [
+          0,
+          27,
+          40
+        ]
+      ]
+    },
+    "tfidf_word_knn": {
+      "n": 129,
+      "mae": 0.43411,
+      "exact": 0.5814,
+      "qwk": 0.31053,
+      "errors": 54,
+      "dangerous_full_credit": 25,
+      "missed_full_credit": 22,
+      "two_point_errors": 2,
+      "confusion_gold_rows_pred_cols": [
+        [
+          1,
+          7,
+          2
+        ],
+        [
+          0,
+          29,
+          23
+        ],
+        [
+          0,
+          22,
+          45
+        ]
+      ]
+    },
+    "tfidf_word_ridge": {
+      "n": 129,
+      "mae": 0.42636,
+      "exact": 0.57364,
+      "qwk": 0.34324,
+      "errors": 55,
+      "dangerous_full_credit": 18,
+      "missed_full_credit": 27,
+      "two_point_errors": 0,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          34,
+          18
+        ],
+        [
+          0,
+          27,
+          40
+        ]
+      ]
+    },
+    "token_overlap_knn": {
+      "n": 129,
+      "mae": 0.35659,
+      "exact": 0.65116,
+      "qwk": 0.4339,
+      "errors": 45,
+      "dangerous_full_credit": 18,
+      "missed_full_credit": 18,
+      "two_point_errors": 1,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          35,
+          17
+        ],
+        [
+          0,
+          18,
+          49
+        ]
+      ]
+    }
+  },
+  "s03_validation_selected": {
+    "n": 129,
+    "mae": 0.42636,
+    "exact": 0.5814,
+    "qwk": 0.34762,
+    "errors": 54,
+    "dangerous_full_credit": 26,
+    "missed_full_credit": 20,
+    "two_point_errors": 1,
+    "confusion_gold_rows_pred_cols": [
+      [
+        1,
+        8,
+        1
+      ],
+      [
+        0,
+        27,
+        25
+      ],
+      [
+        0,
+        20,
+        47
+      ]
+    ]
+  },
+  "per_question_validation_selected": [
+    {
+      "question_id": "1",
+      "n": 8,
+      "mae": 0.125,
+      "errors": 1,
+      "dangerous_full_credit": 0
+    },
+    {
+      "question_id": "2",
+      "n": 8,
+      "mae": 0.125,
+      "errors": 1,
+      "dangerous_full_credit": 1
+    },
+    {
+      "question_id": "3",
+      "n": 7,
+      "mae": 0.42857,
+      "errors": 3,
+      "dangerous_full_credit": 3
+    },
+    {
+      "question_id": "4",
+      "n": 8,
+      "mae": 0.0,
+      "errors": 0,
+      "dangerous_full_credit": 0
+    },
+    {
+      "question_id": "5",
+      "n": 7,
+      "mae": 0.14286,
+      "errors": 1,
+      "dangerous_full_credit": 1
+    },
+    {
+      "question_id": "6",
+      "n": 8,
+      "mae": 0.625,
+      "errors": 5,
+      "dangerous_full_credit": 5
+    },
+    {
+      "question_id": "7",
+      "n": 8,
+      "mae": 0.375,
+      "errors": 3,
+      "dangerous_full_credit": 3
+    },
+    {
+      "question_id": "8",
+      "n": 7,
+      "mae": 0.85714,
+      "errors": 6,
+      "dangerous_full_credit": 2
+    },
+    {
+      "question_id": "9",
+      "n": 8,
+      "mae": 0.5,
+      "errors": 4,
+      "dangerous_full_credit": 4
+    },
+    {
+      "question_id": "10",
+      "n": 8,
+      "mae": 0.75,
+      "errors": 6,
+      "dangerous_full_credit": 0
+    },
+    {
+      "question_id": "11",
+      "n": 8,
+      "mae": 0.125,
+      "errors": 1,
+      "dangerous_full_credit": 1
+    },
+    {
+      "question_id": "12",
+      "n": 7,
+      "mae": 0.28571,
+      "errors": 2,
+      "dangerous_full_credit": 0
+    },
+    {
+      "question_id": "13",
+      "n": 8,
+      "mae": 0.75,
+      "errors": 6,
+      "dangerous_full_credit": 4
+    },
+    {
+      "question_id": "14",
+      "n": 8,
+      "mae": 0.625,
+      "errors": 5,
+      "dangerous_full_credit": 0
+    },
+    {
+      "question_id": "15",
+      "n": 7,
+      "mae": 0.57143,
+      "errors": 3,
+      "dangerous_full_credit": 2
+    },
+    {
+      "question_id": "16",
+      "n": 8,
+      "mae": 0.375,
+      "errors": 3,
+      "dangerous_full_credit": 0
+    },
+    {
+      "question_id": "17",
+      "n": 6,
+      "mae": 0.66667,
+      "errors": 4,
+      "dangerous_full_credit": 0
+    }
+  ],
+  "error_types": "Only score-based triage. Contradiction, paraphrase, and factual correctness require human annotation.",
+  "limitations": [
+    "No embeddings or NLI executed by this script",
+    "Only score differences, not semantic diagnoses",
+    "No approved rubrics or criterion-level grades in ASAG",
+    "Data is long typed English, not MENTRIX 1–3 word or handwriting",
+    "Held-out test used only for final evaluation, never to choose a method or threshold"
+  ],
+  "source": "ASAG dataset from DigiKlausur; student answers excluded from HTML and JSON."
+}

@@ -1,0 +1,23 @@
+{
+  "release": "MENTRIX_COMPLETE_SPRINT06_2026-11-04",
+  "source_uploaded_zip_sha256": "5396859c31411a7f709c7aabf3876023cabd057fc68a318dcd500e451c5e5741",
+  "source_archive_entries": 204,
+  "test_status": "81 passed (local code/tests; OCR fake recognizer in new tests)",
+  "iam_data_included": false,
+  "trocr_model_weights_included": false,
+  "new_real_ocr_scores": null,
+  "key_files_sha256": {
+    "app.py": "a0f715fade26fde63b079ac6de284cac03c934c569b0bd816e79dd03be37e5bc",
+    "handwriting_routes.py": "e373eaf9ea37b5a6972c6419860004fed3188220ce9c14e0219f79de002444a7",
+    "integrated_workflow.py": "9602c4ea37dcd5a19d500a8ff04649c5b33995618547f844eee36ebb4e658036",
+    "static/index.html": "75cf780a9da84bcc15550601c8b2dbe2d865b262b5a09d00bbc50d786de94b64",
+    "static/workspace.js": "3ce34259f586990a6f658177a44602270f7966a7e2c500963f421b3c7a3c880c",
+    "launch_mentrix.py": "a81876d1e16b911ced574a5d703abf42a4dcc1d4168ef7801c7e3bc370edfec7",
+    "research/sprint6/benchmark.py": "aa0266a47addb4fa8f4bd669b4010f1ecbef2447250392a7db7c0034a1f0f2cd",
+    "research/sprint6/full_sheet.py": "ca6eea02a1b049e6d79cfaac7866fb0c1de4d2748ad982a17f618e26edf6e959",
+    "research/sprint6/prepare_iam.py": "b7ad5f7b4b52e7be8ffa3cfe3a492c3d899a8e5ec0e2164b6b00c4e44f85d29b",
+    "research/sprint6/tests/test_sprint6.py": "69c4691270fe424ba5f4e8d085dcaa8973a1d34ef190c16e233655cebd0b982c",
+    "docs/MENTRIX_ALL_PHASES_SPRINT06_REPORT_AR.pdf": "40398f4d7ba619f2323466b35d08275fb67b348bb3a724c797245e0156f9dcf2"
+  },
+  "privacy_note": "Original local_private_data supplied in the source archive is preserved. Keep private; do not upload to a public repository."
+}

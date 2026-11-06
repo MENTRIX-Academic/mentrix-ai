@@ -1,0 +1,52 @@
+{
+  "evaluation_type": "CURATED_ASSISTANT_AUTHORED_DESIGN_CASES_NOT_UNSEEN_TEST_NOT_STUDENT_ACCURACY",
+  "original_source_sha256": {
+    "grader.py": "2ef65dc26a21ab13d74b6c39bd213de15b514b6813c06038aacb54326297f831",
+    "grader_v2.py": "699347c73967a57cbb8e173879d72b41aab14cbd7893d18be4c462db5df59b9b",
+    "questions.json": "ceca66c35bc0ed7a036bd438ec67f2ed1f017ab375dc10c77a9bf6ae28ffce7d"
+  },
+  "python_version": "3.13.5",
+  "datetime_utc": "2026-11-05T13:47:40.663123+00:00",
+  "total_cases": 29,
+  "changed_decisions": 6,
+  "grouped": [
+    {
+      "type": "essay_descriptive",
+      "cases": 1,
+      "v1_to_v2_changed": 0,
+      "v1_review_cases": 1,
+      "v2_review_cases": 1,
+      "v2_design_checks_matched": 1
+    },
+    {
+      "type": "math",
+      "cases": 10,
+      "v1_to_v2_changed": 3,
+      "v1_review_cases": 2,
+      "v2_review_cases": 3,
+      "v2_design_checks_matched": 10
+    },
+    {
+      "type": "mcq",
+      "cases": 8,
+      "v1_to_v2_changed": 1,
+      "v1_review_cases": 2,
+      "v2_review_cases": 1,
+      "v2_design_checks_matched": 8
+    },
+    {
+      "type": "short_answer",
+      "cases": 10,
+      "v1_to_v2_changed": 2,
+      "v1_review_cases": 1,
+      "v2_review_cases": 3,
+      "v2_design_checks_matched": 10
+    }
+  ],
+  "missing_for_complete_scientific_phase3": [
+    "Actual independent TA/educator ground truth",
+    "Real-student/writer-disjoint held-out data",
+    "Resolved descriptive rubric grading and model rerun",
+    "OCR / real scan evaluation"
+  ]
+}

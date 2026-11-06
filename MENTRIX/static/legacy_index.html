@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>MENTRIX Unified | Green & Beige Workspace</title>
+<link href="/static/styles.css?v=unified-green-v4" rel="stylesheet"/><link href="/static/ocr.css?v=unified-green-v4" rel="stylesheet"/><link href="/static/unified.css?v=unified-green-v4" rel="stylesheet"/>
+</head><body>
+<div class="auth-gate" id="authGate"><div class="auth-card"><div class="auth-mark">M</div><h1>MENTRIX</h1><p><strong>UNIFIED GREEN · v4</strong></p><p>A simple workspace for teaching assistants</p><form id="loginForm"><label for="staffPin">Staff PIN</label><input autocomplete="off" id="staffPin" maxlength="128" minlength="6" placeholder="Enter the PIN you set when starting MENTRIX" required="" type="password"/><button class="primary" type="submit">Sign in</button><p class="auth-note" id="loginStatus"></p></form><small>This is a local test app. Do not use it with sensitive student data.</small></div></div>
+<div class="app-shell">
+<aside class="sidebar">
+<div class="logo"><span class="mark">M</span><span>MENTRIX<small>UNIFIED GREEN · v4</small></span></div>
+<div class="side-caption">WORKSPACE</div>
+<button class="side-link active" data-view="overview" type="button"><span>▦</span> Home</button>
+<button class="side-link" data-view="attendance" type="button"><span>◷</span> Students &amp; Attendance</button>
+<button class="side-link" data-view="grading" type="button"><span>▤</span> OCR &amp; Grading</button>
+<button class="side-link" data-view="assistant" type="button"><span>✧</span> Assistant</button>
+<div class="side-note"><strong>LOCAL / STAFF ONLY</strong><p>Data stays on this computer. No attendance record does not mean absent. Essay grades need a human review.</p></div><button class="logout" id="logoutBtn" type="button">Sign out</button>
+</aside>
+<main class="main unified-main">
+<div class="topline"><span class="crumb">MENTRIX UNIFIED <span class="version-pill">GREEN EDITION · v4</span></span><span class="status"><i></i> One website · Local test</span></div>
+<section class="page-section" data-page="overview">
+<div class="welcome"><div class="eyebrow">WELCOME TO MENTRIX</div><h1>All your teaching tasks <em>in one place.</em></h1><p>Track attendance, read handwritten answers, check clear answers, and ask questions about recorded student data.</p><div class="welcome-actions"><button class="primary" data-goto="attendance" type="button">Manage attendance</button><button class="ghost" data-goto="grading" type="button">Upload an answer</button></div></div>
+<div class="dashboard-stats"><article><div class="stat-icon">♙</div><p>Students</p><strong id="statStudents">—</strong><small>Saved on this computer</small></article><article><div class="stat-icon">▤</div><p>Sessions</p><strong id="statSessions">—</strong><small>Recorded classes</small></article><article><div class="stat-icon">✓</div><p>Present</p><strong id="statPresent">—</strong><small>Only marked attendance</small></article><article><div class="stat-icon">◷</div><p>Absent</p><strong id="statAbsent">—</strong><small>Only marked absences</small></article></div>
+<div class="two-cards"><article class="soft-card"><div class="section-kicker">ATTENDANCE</div><h2>Ask about attendance</h2><p>Example: "How many times was ST001 absent?" The answer comes from saved records, not a guess.</p><button class="ghost" data-goto="assistant">Open assistant</button></article><article class="soft-card"><div class="section-kicker">GRADING</div><h2>Check answers safely</h2><p>Clear multiple-choice, short, and math answers can be scored by rules. Essays and unclear answers need staff review.</p><button class="ghost" data-goto="grading">Start grading</button></article></div>
+</section>
+<section class="page-section" data-page="attendance" hidden="">
+<div class="page-head"><p class="eyebrow">STUDENT OPERATIONS</p><h1>Students &amp; Attendance</h1><p>Add students and sessions, or import a CSV file. Not recorded is different from absent.</p></div>
+<div class="three-cards">
+<article class="soft-card"><h3>Add student</h3><form class="mini-form" id="studentForm"><label>Student Code<input id="studentCode" placeholder="ST001" required=""/></label><label>Student name (optional)<input id="studentName" placeholder="Name is saved on this computer"/></label><label>Section Code<input id="studentSection" placeholder="SEC-A" required=""/></label><button class="primary" type="submit">Save student</button></form></article>
+<article class="soft-card"><h3>Add session</h3><form class="mini-form" id="sessionForm"><label>Section Code<input id="sessionSection" placeholder="SEC-A" required=""/></label><label>Date<input id="sessionDate" required="" type="date"/></label><label>Session topic<input id="sessionTopic" placeholder="Lecture 1"/></label><button class="primary" type="submit">Save session</button></form></article>
+<article class="soft-card"><h3>Import CSV files</h3><p class="hint">Students CSV: student_code,student_name,section_code</p><input accept=".csv,text/csv" id="importStudentsFile" type="file"/><button class="ghost" id="importStudentsBtn" type="button">Import students</button><hr/><p class="hint">Attendance CSV: session_date,section_code,student_code,status</p><input accept=".csv,text/csv" id="importAttendanceFile" type="file"/><button class="ghost" id="importAttendanceBtn" type="button">Import attendance</button><div class="templates"><a download="" href="/static/templates/students_template.csv">Download students template</a><a download="" href="/static/templates/attendance_template.csv">Download attendance template</a></div></article>
+</div>
+<div class="soft-card register-card"><div class="section-heading"><div><p class="eyebrow">ATTENDANCE REGISTER</p><h2>Attendance list</h2><p>Choose a session, then mark each student.</p></div><div class="inline-controls"><select id="sessionSelect"><option value="">Choose a session</option></select><button class="ghost" id="reloadAttendance" type="button">Refresh</button></div></div><p aria-live="polite" class="micro" id="attendanceStatus"></p><div class="table-scroller" id="attendanceRegister"><p class="empty-small">Choose a session to see students.</p></div></div>
+</section>
+<section class="page-section" data-page="grading" hidden="">
+<div class="page-head"><p class="eyebrow">PAPER → TEXT → DECISION</p><h1>OCR &amp; Grading</h1><p>Read handwriting as text, then grade clear answers. Unclear answers need staff review.</p><div class="mode-notice">OCR can make mistakes. In our small V2 test, WER was 50.09%. Always check the text before grading.</div></div>
+<div class="section-title-row"><h2>Step A: Upload handwriting</h2><span class="section-kicker">TrOCR / Line Quality</span></div>
+<section class="ocr-layout"><article class="ocr-card"><div class="stepnum">STEP 01</div><h2>Upload one answer image</h2><p class="hint">A single question crop is best. Crop out names and IDs. Original TrOCR is line-trained; add separators between each handwritten line.</p>
+<label class="field">Question<select id="question"></select></label><label class="field">Writer code (no name)<input autocomplete="off" id="writer" maxlength="36" placeholder="W003" value="W003"/></label><label class="field">Answer image<input accept="image/png,image/jpeg,image/webp" id="imageFile" type="file"/></label>
+<p class="micro" id="imageInfo">Choose a PNG or JPG file (12 MB max).</p>
+<div class="stepnum space">STEP 02</div><h2>Mark the text lines</h2><p class="hint">Click the photo <strong>between lines</strong> to add a boundary; click near a line to remove it. The preview is interactive. Do not cut through letters.</p>
+<div id="canvasWrap"><canvas aria-label="Image and line divisions" id="cropCanvas"></canvas><p class="muted" id="noImage">Choose an image to enable crop preview.</p></div>
+<div class="toolbar"><button class="ghost" id="suggest" type="button">✦ Suggest line cuts</button><button class="ghost" id="undo" type="button">Undo last cut</button><button class="ghost" id="clear" type="button">Clear all cuts</button></div>
+<p class="micro" id="lineCount">Line crops: 1</p><p aria-live="polite" class="micro" id="suggestStatus">Suggested cuts may be wrong. Check each line before OCR.</p>
+<label class="field">OCR mode<select id="comparisonMode"><option value="original">E01 Original RGB (baseline)</option><option value="compare">Original RGB + Autocontrast (compare)</option><option value="padded_compare">Original RGB + Border padding/upscale (experimental)</option></select></label>
+<p class="micro">Compare two OCR readings. Choose the closer one, then correct it using the image. No mode is always better.</p><label class="confirm"><input id="confirmLines" type="checkbox">I checked the line cuts. No letters are cut off.</input></label>
+<button class="primary" disabled="" id="runOcr">Read text with TrOCR</button><p aria-live="polite" class="micro" id="ocrStatus">Runs on your own CPU. First model load may download weights.</p>
+</article>
+<article class="ocr-card"><div class="stepnum">STEP 03</div><h2>Check the OCR text</h2><div class="empty" id="ocrEmpty"><div class="empty-icon">◌</div><h3>Ready for your image</h3><p>Upload an image and mark the lines first.</p></div><div hidden="" id="ocrResult"><div class="status-strip"><span class="badge orange" id="statePill">Awaiting verification</span><span class="micro" id="resultQuestion"></span></div>
+<div class="saved-image"><img alt="Original handwriting for this OCR review" id="savedImagePreview"/></div><label class="field">Raw OCR text (do not edit)<textarea id="rawOcr" readonly="" rows="7"></textarea></label><section class="candidate-section" hidden="" id="candidateSection"><h3>Line by line · OCR alternatives</h3><p class="micro">Compare each line with the photo. Pick the closer draft, then check every word. The model has no verified confidence score.</p><div id="candidateRows"></div><button class="ghost" id="applyCandidate" type="button">Use selected lines as editable draft</button></section>
+<div class="flagbox" hidden="" id="qualityFlags"></div>
+<label class="field">Text after your corrections<textarea id="corrected" placeholder="Match the student's actual ink, including spelling mistakes" rows="8"></textarea></label>
+<label class="confirm"><input id="confirmText" type="checkbox">I checked every word against the image.</input></label>
+<button class="primary" id="verifyBtn">Save checked text and grade</button><p aria-live="polite" class="micro" id="verifyStatus"></p><div class="decision" hidden="" id="gradeAdvice"></div>
+<button class="ghost" hidden="" id="overrideAuto" type="button">✎ Check or change score (optional)</button><div hidden="" id="approvalBox"><div class="stepnum space">STEP 04</div><h2>Staff review for unclear answers</h2><p class="hint">For essays, this is manual scoring, not a trained model prediction. Unambiguous MCQ, listed short answers and exact correct math can be auto-scored after text verification; others go to the TA.</p>
+<label class="field">Reviewer (pilot alias)<input id="reviewer" maxlength="80" value="Demo TA"/></label><label class="field">Final score <span id="maxScore"></span><input id="score" min="0" placeholder="Set manually" step="0.5" type="number"/></label><label class="field">Review note<textarea id="comment" placeholder="Why did you choose this score?" rows="3"></textarea></label><button class="primary" id="approveBtn">Save final score</button><p aria-live="polite" class="micro" id="approveStatus"></p>
+</div></div></article></section>
+<section class="ocr-card history"><div class="section-heading"><div><p class="eyebrow">LOCAL SQLITE RECORDS</p><h2>Saved OCR reviews</h2><p>Visible locally on this computer. These are not verified student accounts.</p></div><button class="ghost" id="refreshHistory">↻ Refresh</button></div><div id="historyRows">No records yet.</div></section>
+<div class="section-title-row typed-heading"><h2>Step B: Check a typed answer</h2><span class="section-kicker">MCQ · SHORT · MATH · ESSAY</span></div>
+<div class="two-cards typed-tool">
+  <article class="soft-card">
+    <h3>Check one answer</h3>
+    <p>Choose a question and type an answer. Clear cases get a suggested score. Essays and unclear cases need staff review.</p>
+    <form id="quizForm" class="mini-form">
+      <label>Question<select id="gradingQuestion" required><option value="">Loading questions...</option></select></label>
+      <div id="questionPrompt" class="graded-question-prompt">Choose a question to see it here.</div>
+      <label>Answer<textarea id="gradingAnswer" rows="5" maxlength="2500" placeholder="Type the student's answer exactly as written" required></textarea></label>
+      <button type="submit" class="primary" id="gradeBtn" disabled>Check answer</button>
+      <p class="micro" id="submitStatus" aria-live="polite"></p>
+    </form>
+  </article>
+  <article class="soft-card">
+    <h3>Grading result</h3>
+    <div id="results" aria-live="polite"><p class="empty-small">Choose a question and check an answer to see the result.</p></div>
+  </article>
+</div>
+</section>
+<section class="page-section" data-page="assistant" hidden="">
+<div class="page-head"><p class="eyebrow">DATABASE-POWERED ASSISTANT</p><h1>Assistant</h1><p>Ask about attendance or course topics. Attendance answers come from local records, not guesses.</p></div>
+<div class="assistant-controls"><label>Topic<select id="section"><option value="all">All topics</option><option value="course">Course topics</option><option value="workflow">Project help</option></select></label><label>Answer mode<select id="engine"><option value="knowledge">Offline knowledge</option><option value="ollama">Local Ollama (optional)</option></select></label></div>
+<div aria-live="polite" class="chat" id="chat" role="log"><div class="bubble bot"><strong>MENTRIX</strong><p>Hi! Add students and sessions first. Then ask: "How many times was ST001 absent?" or "Who was absent in SEC-A?"</p></div></div>
+<div class="quick" id="quick"><button data-q="How many times was ST001 absent?" type="button">Student absences</button><button data-q="Did ST001 attend the latest session?" type="button">Latest attendance</button><button data-q="Who was absent in SEC-A?" type="button">Section absences</button><button data-q="What is the difference between continuous and discrete signals?" type="button">Course question</button></div>
+<form class="chat-input" id="chatForm"><textarea id="message" maxlength="1600" placeholder="Ask about a student, a session, or a course topic..." required="" rows="2"></textarea><button class="primary" id="send" type="submit">Send</button></form><p class="micro">The assistant uses saved records. Missing data does not count as absence.</p>
+</section>
+<footer>MENTRIX · Local test version. Add real accounts and stronger data security before real student use.</footer>
+</main>
+</div>
+<script defer="" src="/static/unified.js?v=unified-green-v4"></script>
+<script src="/static/attendance.js?v=unified-green-v4" type="module"></script>
+<script src="/static/app.js?v=unified-green-v4" type="module"></script>
+<script src="/static/ocr.js?v=unified-green-v4" type="module"></script>
+<script src="/static/chatbot.js?v=unified-green-v4" type="module"></script>
+</body></html>

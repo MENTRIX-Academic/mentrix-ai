@@ -1,0 +1,2 @@
+run_id,date,task,question_type,dataset_version,split,code_commit,method_or_model,checkpoint_version,rubric_version,metric,metric_value,coverage,review_rate,critical_failures,notes,reviewed_by
+EX-001,YYYY-MM-DD,Typed grading,short,synthetic-v0.1,development,COMMIT_HASH,Rule baseline,NA,rubric-draft-v0,agreement,NOT_A_HELD_OUT_METRIC,NA,NA,NA,Example only,Pending

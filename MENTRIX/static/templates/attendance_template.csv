@@ -1,0 +1,4 @@
+session_date,section_code,student_code,status
+2026-11-03,SEC-A,ST001,present
+2026-11-03,SEC-A,ST002,absent
+2026-11-03,SEC-A,ST003,excused

@@ -1,0 +1,9 @@
+# Python 3.10+; for model inference only (not needed to start existing MENTRIX).
+transformers>=4.46,<5
+# Installs CPU torch by default unless installed in the environment; for CUDA choose official PyTorch instructions.
+torch>=2.2
+Pillow>=10
+numpy>=1.26,<3
+
+# Sprint07: adaptive layout and limited deskew for handwriting photos.
+opencv-python-headless>=4.8,<5

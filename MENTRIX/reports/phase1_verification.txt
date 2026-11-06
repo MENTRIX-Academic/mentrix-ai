@@ -1,0 +1,25 @@
+MENTRIX / Phase 1 reproducibility audit
+IMPORTANT: current engineering reproduction != old stress-suite reproduction != human accuracy
+[PASS] Original file unchanged: grader.py — 2ef65dc26a21
+[PASS] Original file unchanged: grader_v2.py — 699347c73967
+[PASS] Original file unchanged: questions.json — ceca66c35bc0
+>> Integrated API + engine tests: /opt/pyvenv/bin/python -m unittest discover -s tests -v
+[PASS] Integrated API + engine tests — tests=15
+>> Research tests: /opt/pyvenv/bin/python -m unittest discover -s research/tests -v
+[PASS] Research tests — tests=5
+>> 29-case current demo comparison: /opt/pyvenv/bin/python research/compare.py
+[PASS] 29-case current demo comparison
+>> NEW 500-case malformed-input crash smoke: /opt/pyvenv/bin/python research/smoke_current.py
+[PASS] NEW 500-case malformed-input crash smoke
+[PASS] 29 example comparison counts — cases=29, changed=6
+[PASS] Historical summary arithmetic ONLY — archived cases=123, reviews=51; raw test cases absent
+[WARN] MISSING original historical input: research/data/stress_cases.csv
+[WARN] MISSING original historical input: research/data/synthetic_cases.csv
+[WARN] MISSING original historical input: research/data/test_grader.py
+[WARN] MISSING original historical input: research/data/test_v2.py
+[WARN] NOT VERIFIED / external gate: TA/supervisor actual sign-off
+[WARN] NOT VERIFIED / external gate: Independent teammate reproduction
+[WARN] NOT VERIFIED / external gate: Writer-disjoint, TA-labelled holdout for Phase 3
+
+FINAL: PASS_CURRENT_ENGINEERING_WITH_OPEN_GATES
+Open gates: 7

@@ -1,0 +1,15 @@
+{
+  "total_rows": 646,
+  "human_scored_nonblank": 607,
+  "blank_score_0": 39,
+  "question_count": 17,
+  "grades_all": {
+    "0": 94,
+    "1": 219,
+    "2": 333
+  },
+  "median_words_nonblank": 53.0,
+  "mean_words_nonblank": 57.73,
+  "one_to_three_word_answers": 1,
+  "source_file_sha256": "8ca6ff6f565997379fc2b6a591cf07809a968f0f2916250387db8feb2da1cc4d"
+}

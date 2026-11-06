@@ -1,0 +1,24 @@
+{
+  "sprint": "08",
+  "date": "2026-11-05",
+  "based_on": "MENTRIX_SPRINT07_HANDWRITING_OCR_UPGRADED.zip",
+  "scope": "IAM preflight, paired-error analysis, independent line-level detection/OCR/question mapping metrics, frozen-test guard, safe web UI preference",
+  "real_IAM_dataset_in_user_archive": false,
+  "huggingface_trOCR_weights_bundled": false,
+  "real_IAM_line_inference_executed": false,
+  "real_full_handwritten_paper_GT_evaluation_executed": false,
+  "real_CER_WER_measured_this_sprint": false,
+  "validated_winner": "PENDING_REAL_VALIDATION",
+  "grading_from_unverified_OCR": "FORBIDDEN_REQUIRES_TA_CONFIRMATION",
+  "private_local_files_excluded_from_new_release_zip": true,
+  "test_command": "python -m pytest -q",
+  "javascript_checks": "node --check static/workspace.js; node --check static/handwriting_review.js",
+  "status": "ENGINEERING_DELIVERED_RESEARCH_VALIDATION_PENDING",
+  "engineering_tests": {
+    "command": "python -m pytest -q",
+    "passed": 105,
+    "failed": 0,
+    "environment": "current Linux packaging runtime; NOT Windows GUI"
+  },
+  "javascript_checks_result": "PASS"
+}

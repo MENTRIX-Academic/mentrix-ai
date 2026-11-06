@@ -1,0 +1,4 @@
+# Only for running real handwritten images. Requires internet for first-time model weights.
+torch>=2.1
+transformers>=4.45,<5
+Pillow>=10

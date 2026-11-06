@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "students": 30,
+  "courses": 2,
+  "sessions": 12,
+  "attendance_rows": 360,
+  "present": 287,
+  "absent": 73
+}

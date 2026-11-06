@@ -1,0 +1,13 @@
+{
+  "sprint": "07",
+  "date": "2026-11-04",
+  "implementation": "handwriting layout/visual review upgraded",
+  "engineering_tests": {"command": "python -m pytest -q", "passed": 93, "failed": 0, "new_test_cases": 8},
+  "javascript_static_checks": "node --check passed for workspace.js and handwriting_review.js",
+  "layout_checks": "synthetic ruled pages at 0, +2.5, -3.5, +5 degrees; blank page; fallback",
+  "real_handwritten_inference_executed": false,
+  "cer_wer_updated": false,
+  "real_new_writer_validation": "PENDING",
+  "not_proven": ["TrOCR handwriting transcription accuracy", "end-to-end page accuracy", "model superiority", "user Windows browser interactions"],
+  "rule": "Unverified OCR draft is never publishable or automatically graded."
+}

@@ -1,0 +1,24 @@
+MENTRIX SPRINT 06 — SIMPLE ENGLISH START
+
+1. Unzip the complete MENTRIX folder.
+2. Double-click START_MENTRIX_HERE.bat (first run installs core packages).
+3. Enter your TA PIN; then open the local MENTRIX website.
+4. Open Quiz Grading > Upload a full PDF/PNG/JPG answer sheet.
+5. To READ HANDWRITING, run INSTALL_SPRINT06_OCR.bat once.
+   You need internet for the actual TrOCR weights. They are NOT in the ZIP.
+6. Select the paper, click "Read handwriting with TrOCR".
+7. Inspect the original answer sheet and correct ALL OCR/question cuts.
+8. Check "I compared every answer..."; click Verify & grade.
+9. Review ambiguous marks and essays; publish only when ready.
+
+IAM research benchmark: research/sprint6/README_AR.md
+- Register and download IAM lines + XML metadata + official task split lists.
+- Build research/sprint6/data/iam_manifest.csv (script in README).
+- Run RUN_SPRINT06_CPU_SMOKE.bat first (debug only).
+- Run RUN_SPRINT06_VALIDATION.bat for paired comparison.
+- Run RUN_SPRINT06_FROZEN_TEST.bat only after selection on validation.
+- Open OPEN_SPRINT06_FULL_REPORT.bat for the project history.
+
+No real OCR model evaluation has run merely by unzipping this package.
+The engineering tests use FAKE OCR on a PRINTED fixture. Never report
+these as real handwriting accuracy. Keep all private student data local.

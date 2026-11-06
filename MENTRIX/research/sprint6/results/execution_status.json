@@ -1,0 +1,16 @@
+{
+  "generated_date": "2026-11-04",
+  "status": "SPRINT_06_CODE_TESTED_REAL_MODEL_BENCHMARK_PENDING",
+  "engineering_test_suite": {
+    "passed": 81,
+    "failed": 0,
+    "unit_and_integration_count_sprint6": 12,
+    "scope": "Source-level/unit and integration tests; real handwriting inference not run"
+  },
+  "new_real_iam_metrics": null,
+  "real_handwritten_full_sheet_metrics": null,
+  "new_model_weights_downloaded": false,
+  "data_provenance": "IAM images and model weights NOT included; synthetic printed+fake recognizer used for engineering tests",
+  "frozen_past_asag_results_unchanged": true,
+  "scientific_warning": "Do NOT report fake/printed integration tests as handwriting recognition accuracy."
+}

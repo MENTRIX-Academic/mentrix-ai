@@ -1,0 +1,5 @@
+# Install torch with an appropriate CUDA wheel separately (see pytorch.org).
+transformers==4.57.6
+accelerate>=1.0,<2
+jiwer>=3.0,<5
+pillow>=10,<13

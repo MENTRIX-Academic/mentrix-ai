@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-10-30T14:41:14.145277+00:00",
+  "status": "PASS_CURRENT_ENGINEERING_WITH_OPEN_GATES",
+  "python": "3.13.5",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "fastapi": "0.128.2",
+    "uvicorn": "0.48.0",
+    "sympy": "1.14.0",
+    "httpx": "0.28.1"
+  },
+  "source_sha256_verified": true,
+  "passed_checks": [
+    "Original file unchanged: grader.py",
+    "Original file unchanged: grader_v2.py",
+    "Original file unchanged: questions.json",
+    "Integrated API + engine tests",
+    "Research tests",
+    "29-case current demo comparison",
+    "NEW 500-case malformed-input crash smoke",
+    "29 example comparison counts",
+    "Historical summary arithmetic ONLY"
+  ],
+  "failed_checks": [],
+  "known_open_gates": [
+    "MISSING original historical input: research/data/stress_cases.csv",
+    "MISSING original historical input: research/data/synthetic_cases.csv",
+    "MISSING original historical input: research/data/test_grader.py",
+    "MISSING original historical input: research/data/test_v2.py",
+    "NOT VERIFIED / external gate: TA/supervisor actual sign-off",
+    "NOT VERIFIED / external gate: Independent teammate reproduction",
+    "NOT VERIFIED / external gate: Writer-disjoint, TA-labelled holdout for Phase 3"
+  ],
+  "reproduction_scope": "current 29 curated assistant-authored examples, 20 current unit tests, new 500 crash probes, source hashes",
+  "historical_status": "aggregate summaries checked for arithmetic; NOT rerun: historical source cases/tests absent",
+  "scientific_status": "not a held-out, independently human-labelled grading evaluation"
+}

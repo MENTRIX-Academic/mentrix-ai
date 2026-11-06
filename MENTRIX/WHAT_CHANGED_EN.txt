@@ -1,0 +1,8 @@
+WHAT CHANGED
+- One MENTRIX website; four tabs: Home, Students & Attendance, OCR & Grading, Assistant.
+- Main interface labels and chatbot knowledge answers are now simple English.
+- English attendance questions get clear English answers using saved records.
+- Windows startup checks Python, installs missing basic libraries, uses a free local port,
+  opens the browser, and saves unexpected startup errors in start_error_log.txt.
+- No sample student database is included. Old demo databases are NOT copied.
+- No new OCR training or accuracy improvement is claimed by this update.

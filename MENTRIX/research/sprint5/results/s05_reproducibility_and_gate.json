@@ -1,0 +1,405 @@
+{
+  "status": "EXECUTED_FROZEN_ASAG_LIGHTWEIGHT_AUDIT_SPRINT05",
+  "generated_utc": "2026-11-03T21:20:07.961067+00:00",
+  "source_sha256": "8ca6ff6f565997379fc2b6a591cf07809a968f0f2916250387db8feb2da1cc4d",
+  "split_seed": 42,
+  "test_n": 129,
+  "validation_n": 125,
+  "frozen_test_predictions_reproduced": true,
+  "method_test_scores": {
+    "mean": {
+      "n": 129,
+      "mae": 0.42636,
+      "exact": 0.57364,
+      "qwk": 0.33957,
+      "errors": 55,
+      "dangerous_full_credit": 16,
+      "missed_full_credit": 29,
+      "two_point_errors": 0,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          36,
+          16
+        ],
+        [
+          0,
+          29,
+          38
+        ]
+      ]
+    },
+    "tfidf_word_ridge": {
+      "n": 129,
+      "mae": 0.42636,
+      "exact": 0.57364,
+      "qwk": 0.34324,
+      "errors": 55,
+      "dangerous_full_credit": 18,
+      "missed_full_credit": 27,
+      "two_point_errors": 0,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          34,
+          18
+        ],
+        [
+          0,
+          27,
+          40
+        ]
+      ]
+    },
+    "tfidf_char_ridge": {
+      "n": 129,
+      "mae": 0.44961,
+      "exact": 0.55814,
+      "qwk": 0.2865,
+      "errors": 57,
+      "dangerous_full_credit": 21,
+      "missed_full_credit": 27,
+      "two_point_errors": 1,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          32,
+          20
+        ],
+        [
+          0,
+          27,
+          40
+        ]
+      ]
+    },
+    "token_overlap_knn": {
+      "n": 129,
+      "mae": 0.35659,
+      "exact": 0.65116,
+      "qwk": 0.4339,
+      "errors": 45,
+      "dangerous_full_credit": 18,
+      "missed_full_credit": 18,
+      "two_point_errors": 1,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          35,
+          17
+        ],
+        [
+          0,
+          18,
+          49
+        ]
+      ]
+    },
+    "tfidf_word_knn": {
+      "n": 129,
+      "mae": 0.43411,
+      "exact": 0.5814,
+      "qwk": 0.31053,
+      "errors": 54,
+      "dangerous_full_credit": 25,
+      "missed_full_credit": 22,
+      "two_point_errors": 2,
+      "confusion_gold_rows_pred_cols": [
+        [
+          1,
+          7,
+          2
+        ],
+        [
+          0,
+          29,
+          23
+        ],
+        [
+          0,
+          22,
+          45
+        ]
+      ]
+    },
+    "tfidf_char_knn": {
+      "n": 129,
+      "mae": 0.42636,
+      "exact": 0.58915,
+      "qwk": 0.33812,
+      "errors": 53,
+      "dangerous_full_credit": 25,
+      "missed_full_credit": 20,
+      "two_point_errors": 2,
+      "confusion_gold_rows_pred_cols": [
+        [
+          1,
+          8,
+          1
+        ],
+        [
+          0,
+          28,
+          24
+        ],
+        [
+          1,
+          19,
+          47
+        ]
+      ]
+    },
+    "reference_jaccard_ridge": {
+      "n": 129,
+      "mae": 0.44186,
+      "exact": 0.55814,
+      "qwk": 0.31746,
+      "errors": 57,
+      "dangerous_full_credit": 18,
+      "missed_full_credit": 29,
+      "two_point_errors": 0,
+      "confusion_gold_rows_pred_cols": [
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          34,
+          18
+        ],
+        [
+          0,
+          29,
+          38
+        ]
+      ]
+    }
+  },
+  "s03_validation_selected_test_scores": {
+    "n": 129,
+    "mae": 0.42636,
+    "exact": 0.5814,
+    "qwk": 0.34762,
+    "errors": 54,
+    "dangerous_full_credit": 26,
+    "missed_full_credit": 20,
+    "two_point_errors": 1,
+    "confusion_gold_rows_pred_cols": [
+      [
+        1,
+        8,
+        1
+      ],
+      [
+        0,
+        27,
+        25
+      ],
+      [
+        0,
+        20,
+        47
+      ]
+    ]
+  },
+  "s03_validation_selected_confusion": [
+    [
+      1,
+      8,
+      1
+    ],
+    [
+      0,
+      27,
+      25
+    ],
+    [
+      0,
+      20,
+      47
+    ]
+  ],
+  "per_question_selected": {
+    "1": {
+      "n": 8,
+      "errors": 1,
+      "mae": 0.125,
+      "full_credit_overgrading": 0
+    },
+    "2": {
+      "n": 8,
+      "errors": 1,
+      "mae": 0.125,
+      "full_credit_overgrading": 1
+    },
+    "3": {
+      "n": 7,
+      "errors": 3,
+      "mae": 0.42857,
+      "full_credit_overgrading": 3
+    },
+    "4": {
+      "n": 8,
+      "errors": 0,
+      "mae": 0.0,
+      "full_credit_overgrading": 0
+    },
+    "5": {
+      "n": 7,
+      "errors": 1,
+      "mae": 0.14286,
+      "full_credit_overgrading": 1
+    },
+    "6": {
+      "n": 8,
+      "errors": 5,
+      "mae": 0.625,
+      "full_credit_overgrading": 5
+    },
+    "7": {
+      "n": 8,
+      "errors": 3,
+      "mae": 0.375,
+      "full_credit_overgrading": 3
+    },
+    "8": {
+      "n": 7,
+      "errors": 6,
+      "mae": 0.85714,
+      "full_credit_overgrading": 2
+    },
+    "9": {
+      "n": 8,
+      "errors": 4,
+      "mae": 0.5,
+      "full_credit_overgrading": 4
+    },
+    "10": {
+      "n": 8,
+      "errors": 6,
+      "mae": 0.75,
+      "full_credit_overgrading": 0
+    },
+    "11": {
+      "n": 8,
+      "errors": 1,
+      "mae": 0.125,
+      "full_credit_overgrading": 1
+    },
+    "12": {
+      "n": 7,
+      "errors": 2,
+      "mae": 0.28571,
+      "full_credit_overgrading": 0
+    },
+    "13": {
+      "n": 8,
+      "errors": 6,
+      "mae": 0.75,
+      "full_credit_overgrading": 4
+    },
+    "14": {
+      "n": 8,
+      "errors": 5,
+      "mae": 0.625,
+      "full_credit_overgrading": 0
+    },
+    "15": {
+      "n": 7,
+      "errors": 3,
+      "mae": 0.57143,
+      "full_credit_overgrading": 2
+    },
+    "16": {
+      "n": 8,
+      "errors": 3,
+      "mae": 0.375,
+      "full_credit_overgrading": 0
+    },
+    "17": {
+      "n": 6,
+      "errors": 4,
+      "mae": 0.66667,
+      "full_credit_overgrading": 0
+    }
+  },
+  "by_human_score": {
+    "0": {
+      "n": 10,
+      "errors": 9
+    },
+    "1": {
+      "n": 52,
+      "errors": 25
+    },
+    "2": {
+      "n": 67,
+      "errors": 20
+    }
+  },
+  "research_gate_validation_candidates": {
+    "all_7_agree": {
+      "validation_n": 77,
+      "validation_correct": 51,
+      "validation_accuracy": 0.66234,
+      "wilson_95_lower": 0.55124,
+      "eligible": false
+    },
+    "at_least_6_agree": {
+      "validation_n": 93,
+      "validation_correct": 59,
+      "validation_accuracy": 0.63441,
+      "wilson_95_lower": 0.53301,
+      "eligible": false
+    },
+    "at_least_5_agree": {
+      "validation_n": 111,
+      "validation_correct": 67,
+      "validation_accuracy": 0.6036,
+      "wilson_95_lower": 0.51061,
+      "eligible": false
+    }
+  },
+  "research_gate": {
+    "status": "DISABLED_NO_VALIDATED_RULE",
+    "selected_on_validation": null,
+    "test_n": 129,
+    "test_accepted": 0,
+    "test_review_required": 129,
+    "test_coverage": 0.0,
+    "test_accepted_errors": 0,
+    "test_accepted_accuracy": null,
+    "production_approval_enabled": false
+  },
+  "limitations": [
+    "Only 607 nonblank ASAG typed long answers; no real 1-3 word handwriting data",
+    "ASAG has only overall 0/1/2 human scores, not approved per-question rubrics",
+    "No transformer models or NLI weights executed in Sprint05 offline audit",
+    "Agreeing models may share the same error; no causal evidence of contradiction correctness",
+    "This ASAG test set has been previously inspected in earlier sprints: do NOT treat it as a fresh independent final test",
+    "Human review and a new untouched holdout required for safety validation",
+    "No score auto-publish or TA approval bypass implemented."
+  ]
+}

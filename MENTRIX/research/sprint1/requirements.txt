@@ -1,0 +1,4 @@
+# Optional ONLY for training/evaluating human-scored ASAP-SAS text baseline.
+scikit-learn>=1.4,<2.0
+# For Kaggle downloads (optional; needs your own personal Kaggle credentials).
+kaggle>=1.7,<3.0

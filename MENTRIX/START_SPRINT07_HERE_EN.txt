@@ -1,0 +1,21 @@
+MENTRIX Sprint 07 — Handwriting reading, simple steps
+
+1. Extract this ZIP and open the MENTRIX folder.
+2. Close the old MENTRIX terminal (Ctrl+C).
+3. Double-click START_MENTRIX_HERE.bat.
+4. Double-click INSTALL_SPRINT06_OCR.bat to install/update TrOCR and OpenCV
+   in the project's Python environment. Internet is required for downloading
+   TrOCR model weights the first time. The weights are NOT in this ZIP.
+5. Sign in to the local site. Go to Quiz Grading, upload a photo/PDF,
+   open the paper, select Smart line detection, then Read handwriting with TrOCR.
+6. Open Compare original handwriting with OCR to inspect each line crop.
+7. If question matching fails, expand Mark question areas directly on image.
+   Pick Q1, drag a rectangle around the first answer; repeat for Q2, etc.
+   Press Read handwriting with TrOCR again to apply these regions.
+8. Extra pass for blank/repetitive lines is optional and slower on CPU.
+9. Verify each word against the paper, then Verify & grade; review unclear
+   grades and use batch publish only when they are finalized.
+
+Tests: RUN_SPRINT07_TESTS.bat (software functionality, NOT OCR accuracy).
+Details: docs/SPRINT07_HANDWRITING_REPORT_AR.md
+No real handwritten CER/WER numbers or model fine-tuning are claimed.

@@ -1,0 +1,17 @@
+{
+  "historical_identical_files": 175,
+  "historical_modified_files": [
+    "requirements.txt",
+    "staff_security.py",
+    "launch_mentrix.py",
+    "app.py",
+    "static/index.html",
+    "tests/test_correct_unified_site.py",
+    "tests/test_easy_english.py"
+  ],
+  "excluded_local_private_sqlite": [
+    "local_private_data/mentrix_attendance.sqlite3",
+    "local_private_data/ocr_reviews.sqlite3"
+  ],
+  "notes": "Original old landing page preserved as static/legacy_index.html; no proprietary file weights packaged."
+}
