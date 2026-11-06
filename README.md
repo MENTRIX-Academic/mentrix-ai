@@ -1,29 +1,90 @@
+
 # MENTRIX AI
+### AI-Assisted Teaching Assistant Platform
 
-## Project Overview
-MENTRIX AI is an AI-assisted teaching assistant project designed to support attendance management, quiz generation, AI-assisted grading, and student data management.
+MENTRIX is an academic graduation project designed to assist
+Teaching Assistants with classroom administration, student
+attendance, answer recognition, and AI-assisted grading.
 
-## Environment
-- Python 3.12 (64-bit)
-- PyTorch with CUDA support
-- JupyterLab
+**Status:** Research and development prototype.
 
-## Setup
-1. Create a virtual environment: `python -m venv .venv`
-2. Activate it on Windows: `.venv\Scripts\activate`
-3. Install dependencies:
-   `python -m pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu126`
-4. Verify dependencies: `python -m pip check`
-5. Launch JupyterLab: `python -m jupyterlab`
-6. Open `notebooks/00_environment_check.ipynb` and select the project Python kernel.
+## Core Features
 
-Note: This environment was tested on Windows 10 with Python 3.12 and an NVIDIA GPU supporting CUDA.
+- Student and attendance management
+- Handwritten English answer recognition (OCR)
+- AI-assisted grading with human review
+- MCQ, short-answer, and mathematical answer evaluation
+- Attendance-related assistant
+- OCR benchmarking and evaluation experiments
 
-## Project Structure
-- `notebooks/`: Experiments and environment tests
-- `src/`: Source code
-- `configs/`: Model settings
-- `results/`: Test results
+## AI Research
 
-## Notes
-Do not commit API keys, student data, or local model files to Git.
+The project includes experimental handwriting recognition
+pipelines using TrOCR and image preprocessing techniques.
+
+Research tools support:
+- Character Error Rate (CER)
+- Word Error Rate (WER)
+- Model and preprocessing comparisons
+- Line and question detection evaluation
+- Human ground-truth verification
+
+Model performance on new handwriting is not yet fully
+validated. OCR predictions must be reviewed before grading.
+
+## Repository Structure
+
+mentrix-ai/
+  README.md
+  requirements.txt
+  environment_info.md
+  configs/
+  notebooks/
+  results/
+  MENTRIX/
+    app.py
+    grader.py
+    ocr_integration.py
+    research/
+    training/
+    static/
+    tests/
+    docs/
+
+## Getting Started
+
+The application is located inside the MENTRIX directory.
+
+1. Clone the repository.
+2. Open the MENTRIX directory on Windows.
+3. Read README_START_HERE_EN.md or README_START_HERE_AR.md.
+4. Follow the launcher instructions for the current version.
+
+The current unified application documentation uses:
+http://127.0.0.1:8765
+
+The repository root also contains the AI development
+environment. See environment_info.md.
+
+## Documentation
+
+- [Arabic Setup](MENTRIX/README_START_HERE_AR.md)
+- [English Setup](MENTRIX/README_START_HERE_EN.md)
+- [Sprint 08 Research Report](MENTRIX/docs/SPRINT08_IMPLEMENTATION_REPORT_AR.md)
+- [AI Roadmap](MENTRIX/docs/AI_TRACK_ROADMAP.md)
+
+## Security and Privacy
+
+Do not commit API keys, passwords, real student records,
+private handwritten answers, or local databases.
+
+This is an academic prototype, not a production-ready
+student information system.
+
+## Future Development
+
+- Evaluate OCR on independently verified handwriting data
+- Improve full-answer-sheet processing
+- Extend TA review and grading workflows
+- Expand automated engineering tests
+- Improve integration between platform components

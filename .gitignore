@@ -1,7 +1,32 @@
+# Python virtual environments
 .venv/
-.env
+.venv-test/
+venv/
+venv-test/
+
+# Python cache
 __pycache__/
+.pytest_cache/
 .ipynb_checkpoints/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite3
+*.db
+
+# MENTRIX research datasets
+/MENTRIX/research/data/
+/MENTRIX/research/sprint*/data/
+
+# Local notebook
+/test.ipynb
+
+# AI datasets and models
 data/
 models/
-.venv-test/
+
